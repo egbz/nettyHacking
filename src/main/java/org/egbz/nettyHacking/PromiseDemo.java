@@ -36,7 +36,7 @@ public class PromiseDemo {
             @Override
             public void run() {
                 try {
-                    Thread.sleep(2000);
+                    Thread.sleep(1000);
                 } catch (InterruptedException e) {
                 }
 
@@ -49,8 +49,8 @@ public class PromiseDemo {
         // main 线程阻塞等待执行结果
         try {
             // sync() 会重新抛出异常, await() 不会
-            promise.sync();
-//            promise.await();
+//            promise.sync();
+            promise.await();
         } catch (InterruptedException e) {
         }
 
