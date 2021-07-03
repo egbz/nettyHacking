@@ -1,16 +1,14 @@
 package org.egbz.nettyHacking.discardServer;
 
-import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
-import io.netty.util.ReferenceCountUtil;
 
 /**
  * Handles a server-side channel
  * @author egbz
  * @date 2021/6/30
  */
-public class DiscardServerhandler extends ChannelInboundHandlerAdapter {
+public class DiscardServerHandler extends ChannelInboundHandlerAdapter {
 
     // [discard server]
     // print and discard
