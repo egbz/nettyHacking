@@ -17,6 +17,6 @@ public class TimeDecoder extends ByteToMessageDecoder {
             return;
         }
 
-        out.add(in.readBytes(4));
+        out.add(new UnixTime(in.readUnsignedInt()));
     }
 }
