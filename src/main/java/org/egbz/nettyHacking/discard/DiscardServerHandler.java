@@ -1,4 +1,4 @@
-package org.egbz.nettyHacking.discardServer;
+package org.egbz.nettyHacking.discard;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;

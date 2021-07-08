@@ -1,4 +1,4 @@
-package org.egbz.nettyHacking.timeServer;
+package org.egbz.nettyHacking.time;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;

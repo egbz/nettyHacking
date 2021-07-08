@@ -1,4 +1,4 @@
-package org.egbz.nettyHacking;
+package org.egbz.nettyHacking.promise;
 
 import io.netty.util.concurrent.*;
 

@@ -1,4 +1,4 @@
-package org.egbz.nettyHacking.timeServer;
+package org.egbz.nettyHacking.time;
 
 import java.util.Date;
 
