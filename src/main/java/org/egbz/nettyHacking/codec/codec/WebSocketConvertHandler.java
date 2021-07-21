@@ -1,4 +1,4 @@
-package org.egbz.nettyHacking.codec;
+package org.egbz.nettyHacking.codec.codec;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
